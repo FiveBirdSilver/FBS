@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FBS/static/css/main.a6ef9978.chunk.css",
+    "main.js": "/FBS/static/js/main.9de74e2f.chunk.js",
+    "main.js.map": "/FBS/static/js/main.9de74e2f.chunk.js.map",
+    "runtime-main.js": "/FBS/static/js/runtime-main.7160d921.js",
+    "runtime-main.js.map": "/FBS/static/js/runtime-main.7160d921.js.map",
+    "static/js/2.78816c2d.chunk.js": "/FBS/static/js/2.78816c2d.chunk.js",
+    "static/js/2.78816c2d.chunk.js.map": "/FBS/static/js/2.78816c2d.chunk.js.map",
+    "index.html": "/FBS/index.html",
+    "static/css/main.a6ef9978.chunk.css.map": "/FBS/static/css/main.a6ef9978.chunk.css.map",
+    "static/js/2.78816c2d.chunk.js.LICENSE.txt": "/FBS/static/js/2.78816c2d.chunk.js.LICENSE.txt",
+    "static/media/FBSicon.01748537.png": "/FBS/static/media/FBSicon.01748537.png",
+    "static/media/home.13a364e0.png": "/FBS/static/media/home.13a364e0.png",
+    "static/media/thumnail.5a73eefa.jpg": "/FBS/static/media/thumnail.5a73eefa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7160d921.js",
+    "static/js/2.78816c2d.chunk.js",
+    "static/css/main.a6ef9978.chunk.css",
+    "static/js/main.9de74e2f.chunk.js"
+  ]
+}
