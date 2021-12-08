@@ -1,0 +1,203 @@
+.body {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 12px;
+    position:absolute;
+    background-color: black;
+    z-index: 999;
+    opacity: 70%;
+    width: 100%;
+}
+.navbarmenu {
+    display: flex;
+    padding-left: 0%;   
+    padding-right: 20px;
+}
+.navbarmenu li {
+    list-style: none;
+    padding : 7px 12px;
+    margin: 0 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16x;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+.navbarmenu li:hover {
+    border: 0;
+    border-bottom: 3px solid red;
+}
+.navbarlogo img {
+    width: 60px;
+    padding-right: 10px;
+}
+.navbarhome {
+    display: flex;
+    align-items: center;
+}
+.navbarhome img {
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+.thumnail {
+    display: block;
+    width: 100%;
+}
+.thumnail img {
+    top: 0;
+    width: 100%;
+    opacity:80%;
+}
+.description{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    z-index: 999;
+    width: 600px;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+button {
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    z-index: 999;
+    border:0;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 30%;
+    width: 80px;
+    height: 30px;
+    color: whitesmoke;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 30%;
+    transform: scale(1.1);
+
+}
+
+.description h3{
+    font-size:40px;
+    color: whitesmoke;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+.description span {
+    font-size: 14px;
+    color: darkgray;
+    margin-right: 10px;
+}
+
+.description p{
+    font-size:20px;
+    text-shadow: 1px 1px 1px gray;
+    color: whitesmoke;
+    font-style: italic;
+    margin: 0;
+}
+.containwrap {
+    /* position:absolute; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.contain h1 {
+    color: red;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-shadow: 1px 1px 1px gray;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size:30px;
+    padding-left: 20px;
+}
+.contain h2 {
+    color: whitesmoke;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-shadow: 1px 1px 1px gray;
+    margin-top: 0;
+    font-size:28px;
+    padding-left: 20px;
+
+}
+
+.containimg {
+    width: 250px;
+    height: 400px;
+}
+.containimg:hover {
+    transform: scale( 1.2, 1.2 )
+}
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .navbar {
+        position: relative;;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .navbarlogo img {
+        display: none;
+    }
+    .navbarhome img {
+        width: 15px;
+        height: 15px;
+    }
+    .containwrap {
+        position:relative;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contain h1 {
+        color: red;
+        font-family: 'Noto Sans KR', sans-serif;
+        text-shadow: 1px 1px 1px gray;
+        margin-bottom: 0;
+        font-size:20px;
+        padding-left: 10px;
+    }
+    .contain h2 {
+        color: whitesmoke;
+        font-family: 'Noto Sans KR', sans-serif;
+        text-shadow: 1px 1px 1px gray;
+        margin-top: 0;
+        font-size:16px;
+        padding-left: 10px;
+    
+    }
+    .description{
+        display: none;
+    }
+    button {
+        display: none;
+    }
+    .thumnail img {
+        display: none;
+    }
+}
