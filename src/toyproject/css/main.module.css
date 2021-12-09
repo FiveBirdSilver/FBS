@@ -48,6 +48,8 @@
 .thumnail img {
     top: 0;
     width: 100%;
+    opacity: 0.7;
+
 }
 .description{
     position: absolute;
@@ -74,6 +76,7 @@ button {
     font-size: 14px;
     font-weight: bold;
     box-shadow: 2px 2px 2px whitesmoke;
+    opacity: 0.7;
 }
 button:hover {
     background-color: whitesmoke;
@@ -102,7 +105,6 @@ button:hover {
     margin: 0;
 }
 .containwrap {
-    /* position:absolute; */
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

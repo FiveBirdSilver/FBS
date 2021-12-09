@@ -48,7 +48,7 @@ function Ani() {
                     </div>)}
             </div>
             <footer className={styles.footer}>
-                FiveBirdSilver ⓒ 2021
+                FiveBirdSilver ⓒ 2021 All rights reserved.
             </footer>
         </div>
 
