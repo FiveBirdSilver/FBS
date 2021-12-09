@@ -21,7 +21,7 @@ function Main() {
         getBest();
     }, [])
     return (
-        <div>
+        <div className={styles.body}>
             {Loading ? null : (
                 <div>
                     <nav className={styles.navbar}>
